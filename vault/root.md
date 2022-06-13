@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655126664464
+updated: 1655129063006
 created: 1637610830605
 ---
 
@@ -22,7 +22,4 @@ Table of Contents:
 
 
 
-If you wanna contact me on changes, or would like to contribute to the notes, you could contact me on:
-- LinkedIn: https://www.linkedin.com/in/sreevatsankomandur/
-- Instagram (username: wattsogram)
-- Email (sreevatsankomundur@gmail.com) 
+[[More about Me]] 😎😎😎
