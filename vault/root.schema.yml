@@ -2,6 +2,7 @@ version: 1
 imports: []
 schemas:
   - id: root
-    children: []
+    children: [Blockchain Basics]
     title: root
     parent: root
+  
