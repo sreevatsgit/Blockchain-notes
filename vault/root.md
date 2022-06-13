@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655130678645
+updated: 1655130879459
 created: 1637610830605
 ---
 
@@ -31,8 +31,7 @@ In the past I created a variety of applications on the blockchain like a voting 
 I love the concept of blockchain, but the problem is there are many people who still don't get the idea on how it works. Some of them also do not understand head or tail on when to start. That was the whole concept of this website (done on Dendron). It was to end meaningless debates, a cloud of confusion but most importantly learn what the actual heck is blockchain and how does it work. 
 <br>
 
-![](/assets/images/2022-06-13-22-28-16.png)
-
+![](/assets/images/2022-06-13-22-34-36.png)
 
 Apart from my coding life, I love playing golf🏌️‍♂️, Dota 2, binge eating food 🍕🍕, watching YouTube videos and love teaching people the art to code🖥️🖥️🖥️🖥️.
 
