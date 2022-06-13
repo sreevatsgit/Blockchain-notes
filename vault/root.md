@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655130377469
+updated: 1655130678645
 created: 1637610830605
 ---
 
@@ -30,6 +30,9 @@ I'm Sreevatsan Komandur Sridhar (Or Sree). I am from Bangalore, India currently 
 In the past I created a variety of applications on the blockchain like a voting machine that can give transparent elections to governments. I also created an ERC720 meme token known as "Iso-coin" to complete a funny dare given by my friends. I also created a couple of NFTs and gave them out as gifts. Currently I am working in also helping a couple of friends in upscaling their NFT projects as well. 
 I love the concept of blockchain, but the problem is there are many people who still don't get the idea on how it works. Some of them also do not understand head or tail on when to start. That was the whole concept of this website (done on Dendron). It was to end meaningless debates, a cloud of confusion but most importantly learn what the actual heck is blockchain and how does it work. 
 <br>
+
+![](/assets/images/2022-06-13-22-28-16.png)
+
 
 Apart from my coding life, I love playing golf🏌️‍♂️, Dota 2, binge eating food 🍕🍕, watching YouTube videos and love teaching people the art to code🖥️🖥️🖥️🖥️.
 
