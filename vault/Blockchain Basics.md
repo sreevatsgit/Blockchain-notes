@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655123354917
+updated: 1655123523198
 created: 1655117704798
 ---
 
@@ -67,9 +67,9 @@ Nearly everything we do in life is a result of an agreement contract or a promis
 ## The McScam:
 Let's take a real life example of a broken promise 😭😭😭😭. So we all know McDonalds and the fun game Monopoly. Back in the 90s, McDonalds ran a promotion to win a million dollar jackpot if they collect the McDonalds' Monopoly game cards. The idea was simple. You buy McDonalds and in return you get they promise to give their customers "fair" chance to win the $1M jackpot. Well, the 90s was a very gullible time and needless to say they broke the promise. Instead of a "fair chance" the chance was actually zero (lol). Over $24M went into the pockets of insiders who rigged the game. Meaning, if you were actually that gullible and you entered the McDonalds monopoly game you literally bought into the game into a set of lies and promises that are gonna be 100000000000% broken. They basically just stole $24M from them.
 <br>
-Now imagine. Same jackpot, but you deploy on a smart contract in the blockchain. Its gonna be impossible to get scammed due to smartcontracts being **immutable**, **decentralized** and **Transparent**
+Now imagine. Same jackpot, but you deploy on a smart contract in the blockchain. Its gonna be impossible to get scammed due to smartcontracts being **immutable**, **decentralized**, **trustworthy** and **Transparent**
 
-
+So the blockchain eliminate the questions like: **"How can I trust them?"** or **"Will they break the promise"**
 
 
 
