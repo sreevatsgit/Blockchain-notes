@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655123961609
+updated: 1655125604704
 created: 1655117704798
 ---
 
@@ -75,10 +75,28 @@ Now imagine. Same jackpot, but you deploy on a smart contract in the blockchain.
 
 So the blockchain eliminate the questions like: **"How can I trust them?"** or **"Will they break the promise?"**
 
-The question of "trust" happens all the time. 
-The issue 
+The question of "trust" happens all the time.   
+The issue with our current contracts is that we gotta trust the people who designed them to do the right thing. But most of the times, they just don't do the write thing.History is a relentless lesson of trustworthy entities being notorious promise breakers. The shady deals that lead to the 2008 recession, hyper-inflation in Zimbabwe and Brazil etc all led to problems due to trustworthy issues. We finally have a solution. **"Da Blockchain"** and **"Da Smart Contracts"**
 
+A smart Contract:
+- cannot be altered (immutable)
+- Gets automatically executed
+- Every single person views the terms and conditions
+- impossible to hack, commit fraud and maipulate.
 
+The code is practically executed by a decentralized collective like a group of people running a certain software. This means that no one person or entity can alter any of these agreements or change these terms of the arrangements. Its also impossible to hack it cause once a hacker enters into the system every single person in the server is notified.
+In smart contracts, doing the right thing is infrastructural. 
+<br>
+Although this technology is new, we have seen it relandscape the entire markets and continue to do so. **Decentralized Finance** or De-Fi already have over $200 billion in these decentralized protocols to have **more fair**, **more accountable** and more **transparent** financial systems. We need to move away from where we are right now and end the chances of people's wealth being vaccumed by some random corporate group who are bending the rules to their favor. And smart contracts is the key to a better world. 
 
+Apart from "trust" the blockchain gives us:
+- security benefits
+- uptime benefits
+- Fast Execution speed
 
+Other benefits:
+1. It's decentralized (duh!): No centralized intermidiary
+The different individuals that run one of these blockchains are known as **node operators**. The combination of all these 10s and 1000s of node operators running the same software, running the same algorithms and smart contracts that make the system decentralized.
+2. Transparency and Flexibility: Since all these individual node operators run this software, everybody can see what is happening on chain. No shady deals!!! Anything that is seen unfair people can see it and then... just not use it lol. Everyone has the perfect information and has to play it by the same rules. However, you might be wondering, if its public, how the heck is there gonna be privacy? Well, the blockchain is psuedoanonymous, meaning that you aren't tied to an identity in real-life
+3. Speed and efficiency: 
  
