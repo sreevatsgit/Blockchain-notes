@@ -2,11 +2,10 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655121263986
+updated: 1655121343961
 created: 1655117704798
 ---
 
-# Blockchain Basics
 ## The Bitcoin Protocol
 Bitcoin was one of the first protocol to use this revolutionary technology called blockchain. 
 The bitcoin whitepaper outlined how it can make peer to peer transactions in a decentralized network. 
