@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655123663564
+updated: 1655123728321
 created: 1655117704798
 ---
 
@@ -61,19 +61,19 @@ We have seen the web develop more than 2 decades! Here is the evolution of the w
 <br>
 - **Web3**: The permissionless web, with dynamic content where decentralized servers run the logic creating censorship resistant agreements in which smart contracts are enabled. Users own the protocol they work with and its often dubbed as the **ownership economy**
 
-## So why do I need a smart contract today? What value does it give me??? And most importantly what problem does this technology solve??
+## Why do I need a smart contract today?
 
 A piece of tech is only good depending on the problem it solves. If it doesnt solve anything why have it in the first place??
-In short, what smart contracts do is that they create **trust minimized agreements** and give rise to **unbreakable promises**
+In short, what smart contracts do is that they create **trust minimized agreements** and give rise to **unbreakable promises**.
 <br>
-Nearly everything we do in life is a result of an agreement contract or a promise.  When you're getting an oil change for your car from a company, they are promising that they will faithfully change your oil in exchange for money. Or you go to a bank where they promise you to keep your money safely in return to give out loans to others. Whenever we make one of these agreements in a way you asking them to "pinky-swear" into not screw you over and treat you fairly. (But it doesnt always happen) 
+Nearly everything we do in life is a result of an agreement contract or a promise.  When you're getting an oil change for your car from a company, they are promising that they will faithfully change your oil in exchange for money. Or you go to a bank where they promise you to keep your money safely in return to give out loans to others. Whenever we make one of these agreements in a way you asking them to "pinky-swear" into not screw you over and treat you fairly. (But it doesnt always happen).
 <br>
-## The McScam:
+### The McScam:
 Let's take a real life example of a broken promise 😭😭😭😭. So we all know McDonalds and the fun game Monopoly. Back in the 90s, McDonalds ran a promotion to win a million dollar jackpot if they collect the McDonalds' Monopoly game cards. The idea was simple. You buy McDonalds and in return you get they promise to give their customers "fair" chance to win the $1M jackpot. Well, the 90s was a very gullible time and needless to say they broke the promise. Instead of a "fair chance" the chance was actually zero (lol). Over $24M went into the pockets of insiders who rigged the game. Meaning, if you were actually that gullible and you entered the McDonalds monopoly game you literally bought into the game into a set of lies and promises that are gonna be 100000000000% broken. They basically just stole $24M from them.
 <br>
-Now imagine. Same jackpot, but you deploy on a smart contract in the blockchain. Its gonna be impossible to get scammed due to smartcontracts being **immutable**, **decentralized**, **trustworthy** and **Transparent**
+Now imagine. Same jackpot, but you deploy on a smart contract in the blockchain. Its gonna be impossible to get scammed due to smartcontracts being **immutable**, **decentralized**, **trustworthy** and **Transparent**.
 
-So the blockchain eliminate the questions like: **"How can I trust them?"** or **"Will they break the promise"**
+So the blockchain eliminate the questions like: **"How can I trust them?"** or **"Will they break the promise?"**
 
 
 
