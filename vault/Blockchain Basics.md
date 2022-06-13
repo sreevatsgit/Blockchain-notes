@@ -2,12 +2,12 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655119634147
+updated: 1655119676114
 created: 1655117704798
 ---
 
 # Blockchain Basics
-## The Bitcoin
+## The Bitcoin Protocol
 Bitcoin was one of the first protocol to use this revolutionary technology called blockchain. 
 The bitcoin whitepaper outlined how it can make peer to peer transactions in a decentralized network. 
 <br><br>
@@ -15,7 +15,7 @@ This network was powered by cryptography and decentrality and allowed people to 
 
 Similar to gold there is a scarce amount or a set amount of bitcoin available on the planet only so much that you can buy and sell.  
 
-## The Ethereum
+## The Ethereum Protocol
 Some people saw this technology and wanted to take it a step further. A few years later, Vitalik Buterin released a new protocol whitepaper known as ethereum which used the same blockchain infrastructure of Bitcoin with an additional feature which were decentralized agreements or **Smart Contracts.**
 
 This allowed people to not only make decentralized transactions, but decentralized agreements, decentralized organizations and other ways to interact with each other without any centralized intermidiary governing force. 
@@ -28,7 +28,7 @@ Think smart contracts as "traditional contracts" or traditional agreements excep
 However, even Bitcoin does have smart contracts. But they are intentionally **Turing incomplete**, meaning that they dont have all the functionality that a programming language will give them. Bitcoin developers viewed bitcoin as a store of value. On the other hand, Ethereum developers viewed ethereum as a store of value and as a feature that facilitates these decentralized agreements.
 <br>
 
-## The Oracle Problem:
+## The Oracle Problem, and the Chainlink Protocol:
 The smart contracts on the blockchain come with numerous benefits but with a big issue. If you want agreements in our everyday lives to be replaced by smart contracts we would require data from the real world. Blockchains by themselves cannot interact, read or even listen to the data coming from the real world. This problem is known as **"The Oracle Problem"** 
 <br>
 Blockchains are purposefully deterministic systems. Anything that happens with them, happens in their cute isolated little world. But if they are dealing with agreements they are going to definitely need external data and external competition. 
