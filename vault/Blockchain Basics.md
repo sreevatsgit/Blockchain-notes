@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655123523198
+updated: 1655123663564
 created: 1655117704798
 ---
 
@@ -53,9 +53,13 @@ A combination of many smart contracts is known as a Decentralized application or
 So we know what is a smart-contract, a Dapp and different protocols so what the heck is a **web3**??????
 
 ## The iteration of Web!
-- Web1: Persmissionless open source world that allows you to have static content
-- Web2: Permissioned web with dynamic content where all the agreements and logic off of centralized servers where they control your information
-- Web3: The permissionless web, with dynamic content where decentralized servers run the logic creating censorship resistant agreements in which smart contracts are enabled. Users own the protocol they work with and its often dubbed as the **ownership economy**
+We have seen the web develop more than 2 decades! Here is the evolution of the web:
+<br>
+- **Web1**: Persmissionless open source world that allows you to have static content
+<br>
+- **Web2**: Permissioned web with dynamic content where all the agreements and logic off of centralized servers where they control your information
+<br>
+- **Web3**: The permissionless web, with dynamic content where decentralized servers run the logic creating censorship resistant agreements in which smart contracts are enabled. Users own the protocol they work with and its often dubbed as the **ownership economy**
 
 ## So why do I need a smart contract today? What value does it give me??? And most importantly what problem does this technology solve??
 
