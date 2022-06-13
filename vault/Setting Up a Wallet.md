@@ -2,7 +2,7 @@
 id: c1k7l1u52kydjq3nbo6bkp9
 title: Setting Up a Wallet
 desc: ''
-updated: 1655128174501
+updated: 1655128902552
 created: 1655126375333
 ---
 
@@ -52,5 +52,22 @@ These test networks ressemble ethereum which acts like "ethereum" where we can u
 > Rinkeby Faucet: https://rinkebyfaucet.com/
 
 Note: This is fake money. Don't get over excited when you have 48 ethereum in the Kovan server in your wallet 😂😂😂😂
+You can connect your wallet to these test faucets and play around with test ethers.
+Now after you got some test ether go back to etherscan (use etherscan rinkeby this time) and you can see the transaction there that you recieved some test ether! 
+
+Now if you click on the transaction hash you can see more details on what went down in this transaction!
+I always look at understanding what went down in a transaction in etherscan as a super important concept when developing smart contracts.
+
+![](/assets/images/2022-06-13-21-58-50.png)
+
+Components of a transaction:
+<br>
+- From: The wallet that sent the transaction
+- To: The wallet that recieved the transaction
+- Value: Amount transfered.
+- Transaction fee: Amount paid to the miner to process the transaction
+- Gas Price: Cost of unit of gas specified in a transaction in Ether and Gwei. Higher the gas price, higher the chance of getting included in the block,
+
+In the next part, we gonna tackle the most confusing part about blockchain. GAS!⛽⛽⛽⛽⛽
 
 
