@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655117917993
+updated: 1655119634147
 created: 1655117704798
 ---
 
@@ -25,4 +25,16 @@ A smart contract are a set of instructions that are executed in a decentralized 
 
 Think smart contracts as "traditional contracts" or traditional agreements except that they aren't written in paper. Instead, they are written on code and are embodied and executed on the blockchain platform. 
 
-However, even Bitcoin does have smart contracts. But they are intentionally Turing incomplete, meaning that they dont have all the functionality that a programming language will give them. Bitcoin developers viewed bitcoin as a store of value. On the other hand, Ethereum developers viewed ethereum as a store of value and as a feature that facilitates these decentralized agreements.
+However, even Bitcoin does have smart contracts. But they are intentionally **Turing incomplete**, meaning that they dont have all the functionality that a programming language will give them. Bitcoin developers viewed bitcoin as a store of value. On the other hand, Ethereum developers viewed ethereum as a store of value and as a feature that facilitates these decentralized agreements.
+<br>
+
+## The Oracle Problem:
+The smart contracts on the blockchain come with numerous benefits but with a big issue. If you want agreements in our everyday lives to be replaced by smart contracts we would require data from the real world. Blockchains by themselves cannot interact, read or even listen to the data coming from the real world. This problem is known as **"The Oracle Problem"** 
+<br>
+Blockchains are purposefully deterministic systems. Anything that happens with them, happens in their cute isolated little world. But if they are dealing with agreements they are going to definitely need external data and external competition. 
+
+This is where the Oracles come into play. Oracles are devices that can deliver the data to these decentralized blockchain or runs external computation. But if we want the applications to be decentralized you can't work with just one Oracle. You would need a decentralized Oracle Network, similar to a decentralized blockchain. 
+<br>
+The on-chain logic maybe decentralized but you also need your off-chain and computation to be decentralized too.
+Combining the on-chain decentralized logic with the offchain decentralized data and computation, is what gives rise to **hybrid smart contracts** 
+ 
