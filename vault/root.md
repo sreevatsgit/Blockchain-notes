@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655118918793
+updated: 1655121820522
 created: 1637610830605
 ---
 
@@ -12,7 +12,7 @@ My name is Sreevatsan. I am a Web3 Developer from India currently living in Sing
 <br>
 This website is a list of notes will be consistently updated as time goes on. Hence removing the doubt of "outdatedness"🙂🙂🙂  
 
-These notes are primarily used to learn blockchain, solidity and a full stack web3 development using JavaScript. This documentation was created using Markdown, Dendron and Netlify. (Shout-out to Dendron💕🌱🌱)
+These notes are primarily used to learn blockchain, solidity and a full stack web3 development using JavaScript. This documentation was created using Markdown, Dendron and Netlify. (Shout-out to Dendron💕🌱🌱 this is probably the best note taking software I have ever used!!)
 
 Table of Contents:
 
