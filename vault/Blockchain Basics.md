@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655126008695
+updated: 1655126085739
 created: 1655117704798
 ---
 
@@ -100,6 +100,6 @@ The different individuals that run one of these blockchains are known as **node 
 2. Transparency and Flexibility: Since all these individual node operators run this software, everybody can see what is happening on chain. No shady deals!!! Anything that is seen unfair people can see it and then... just not use it lol. Everyone has the perfect information and has to play it by the same rules. However, you might be wondering, if its public, how the heck is there gonna be privacy? Well, the blockchain is psuedoanonymous, meaning that you aren't tied to an identity in real-life
 3. ⚡Speed and efficiency: Ever tried an overseas bank transfer? It sometimes takes more than a week! But on the other hand these banks are doing just simple math.. Subract and adding balances. Why does it take so long? On the blockchain these happens instantly. This is obviously quicker and efficient
 4. Security and immutability: Once a smart contract is deployed, it becomes immutable or not changed whatever in the code is in the code forever which means the security is a lot easier to maintain. In a centralized world someone can hack into a centralized server and change a few numbers. 
-🕵️🕵️ If you're wondering how to hack the blockchain, well you gotta just take over about 1/2 of the total nodes. You do that well then Bob's your uncle (I beleive in you 😉😉😉)
+🕵️🕵️ If you're wondering how to hack the blockchain, well you gotta just take over about 1/2 of the total nodes. You do that well then Bob's your uncle (It's too difficult but I beleive in you 😉😉😉)
 
  
