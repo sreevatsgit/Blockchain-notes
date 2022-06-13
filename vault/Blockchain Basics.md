@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655119676114
+updated: 1655121263986
 created: 1655117704798
 ---
 
@@ -37,4 +37,18 @@ This is where the Oracles come into play. Oracles are devices that can deliver t
 <br>
 The on-chain logic maybe decentralized but you also need your off-chain and computation to be decentralized too.
 Combining the on-chain decentralized logic with the offchain decentralized data and computation, is what gives rise to **hybrid smart contracts** 
+<br>
+This is where **Chainlink** comes into the picture. A decentralized oracle network that can bring the external data and external computation into your smart contracts and makes sure that it is decentralized end-to-end that we need for our contract agreements.
+![](/assets/images/2022-06-13-19-54-19.png)
+
+<br>
+Chainlink really helps us construct or smart contracts in a meaningful way
+**Hybrid Smart Contracts** typically has some random off-chain component
+<br>
+<br>
+Since the release of Ethereum, numerous blockchains came to life like Avalanche, polygon, harmony etc.
+
+All these notes are mainly directed towards developing smart contracts using ethereum. But it will be applicable to the vast majority of networks and learning it in ethereum can enable you to switching chains and developing other smart contracts on other platforms easily!
+
+
  
