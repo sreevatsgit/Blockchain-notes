@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655126085739
+updated: 1655126335359
 created: 1655117704798
 ---
 
@@ -102,4 +102,6 @@ The different individuals that run one of these blockchains are known as **node 
 4. Security and immutability: Once a smart contract is deployed, it becomes immutable or not changed whatever in the code is in the code forever which means the security is a lot easier to maintain. In a centralized world someone can hack into a centralized server and change a few numbers. 
 🕵️🕵️ If you're wondering how to hack the blockchain, well you gotta just take over about 1/2 of the total nodes. You do that well then Bob's your uncle (It's too difficult but I beleive in you 😉😉😉)
 
+
+WOW! That was a lot to take in isn't it? In the next topic we are going to set-up a wallet to start developing smart contracts and transactions to get things started!🚀🚀🚀
  
