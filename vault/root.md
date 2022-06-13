@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655118782626
+updated: 1655118918793
 created: 1637610830605
 ---
 
@@ -17,3 +17,11 @@ These notes are primarily used to learn blockchain, solidity and a full stack we
 Table of Contents:
 
 1. [[Blockchain Basics]]
+
+
+
+
+If you wanna contact me on changes, or would like to contribute to the notes, you could contact me on:
+- LinkedIn: https://www.linkedin.com/in/sreevatsankomandur/
+- Instagram (username: wattsogram)
+- Email (sreevatsankomundur@gmail.com) 
