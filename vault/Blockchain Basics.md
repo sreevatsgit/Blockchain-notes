@@ -1,8 +1,8 @@
 ---
 id: f4weqmt96sdowtbtfn453zl
-title: Blockchain Basics
+title: 1. Blockchain Basics
 desc: ''
-updated: 1655121343961
+updated: 1655121485131
 created: 1655117704798
 ---
 
@@ -20,7 +20,7 @@ Some people saw this technology and wanted to take it a step further. A few year
 This allowed people to not only make decentralized transactions, but decentralized agreements, decentralized organizations and other ways to interact with each other without any centralized intermidiary governing force. 
 
 ## Defining a smart contract
-A smart contract are a set of instructions that are executed in a decentralized way without needing a centralized entity (or third party intermidiaries) to run them.
+A **smart contract** are a set of instructions that are executed in a decentralized way without needing a centralized entity (or third party intermidiaries) to run them.
 
 Think smart contracts as "traditional contracts" or traditional agreements except that they aren't written in paper. Instead, they are written on code and are embodied and executed on the blockchain platform. 
 
