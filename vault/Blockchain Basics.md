@@ -1,8 +1,8 @@
 ---
 id: f4weqmt96sdowtbtfn453zl
-title: 1. Blockchain Basics
+title: Blockchain Basics
 desc: ''
-updated: 1655121760645
+updated: 1655123354917
 created: 1655117704798
 ---
 
@@ -38,7 +38,6 @@ The on-chain logic maybe decentralized but you also need your off-chain and comp
 Combining the on-chain decentralized logic with the offchain decentralized data and computation, is what gives rise to **hybrid smart contracts**. Hybrid Smart contracts typically has some random off-chain component 
 <br>
 This is where **Chainlink** comes into the picture. A decentralized oracle network that can bring the external data and external computation into your smart contracts and makes sure that it is decentralized end-to-end that we need for our contract agreements.
-![](/assets/images/2022-06-13-19-54-19.png)
 
 <br>
 Chainlink really helps us construct or smart contracts in a meaningful way. 
@@ -48,6 +47,33 @@ Chainlink really helps us construct or smart contracts in a meaningful way.
 Since the release of Ethereum, numerous blockchains came to life like Avalanche, polygon, harmony etc.
 
 All these notes are mainly directed towards developing smart contracts using ethereum. But it will be applicable to the vast majority of networks and learning it in ethereum can enable you to switching chains and developing other smart contracts on other platforms easily!
+
+A combination of many smart contracts is known as a Decentralized application or just **Dapp**
+
+So we know what is a smart-contract, a Dapp and different protocols so what the heck is a **web3**??????
+
+## The iteration of Web!
+- Web1: Persmissionless open source world that allows you to have static content
+- Web2: Permissioned web with dynamic content where all the agreements and logic off of centralized servers where they control your information
+- Web3: The permissionless web, with dynamic content where decentralized servers run the logic creating censorship resistant agreements in which smart contracts are enabled. Users own the protocol they work with and its often dubbed as the **ownership economy**
+
+## So why do I need a smart contract today? What value does it give me??? And most importantly what problem does this technology solve??
+
+A piece of tech is only good depending on the problem it solves. If it doesnt solve anything why have it in the first place??
+In short, what smart contracts do is that they create **trust minimized agreements** and give rise to **unbreakable promises**
+<br>
+Nearly everything we do in life is a result of an agreement contract or a promise.  When you're getting an oil change for your car from a company, they are promising that they will faithfully change your oil in exchange for money. Or you go to a bank where they promise you to keep your money safely in return to give out loans to others. Whenever we make one of these agreements in a way you asking them to "pinky-swear" into not screw you over and treat you fairly. (But it doesnt always happen) 
+<br>
+## The McScam:
+Let's take a real life example of a broken promise 😭😭😭😭. So we all know McDonalds and the fun game Monopoly. Back in the 90s, McDonalds ran a promotion to win a million dollar jackpot if they collect the McDonalds' Monopoly game cards. The idea was simple. You buy McDonalds and in return you get they promise to give their customers "fair" chance to win the $1M jackpot. Well, the 90s was a very gullible time and needless to say they broke the promise. Instead of a "fair chance" the chance was actually zero (lol). Over $24M went into the pockets of insiders who rigged the game. Meaning, if you were actually that gullible and you entered the McDonalds monopoly game you literally bought into the game into a set of lies and promises that are gonna be 100000000000% broken. They basically just stole $24M from them.
+<br>
+Now imagine. Same jackpot, but you deploy on a smart contract in the blockchain. Its gonna be impossible to get scammed due to smartcontracts being **immutable**, **decentralized** and **Transparent**
+
+
+
+
+
+
 
 
  
