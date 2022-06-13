@@ -2,7 +2,7 @@
 id: f4weqmt96sdowtbtfn453zl
 title: Blockchain Basics
 desc: ''
-updated: 1655123833963
+updated: 1655123961609
 created: 1655117704798
 ---
 
@@ -28,14 +28,14 @@ However, even Bitcoin does have smart contracts. But they are intentionally **Tu
 <br>
 
 ## The Oracle Problem, and the Chainlink Protocol:
-The smart contracts on the blockchain come with numerous benefits but with a big issue. If you want agreements in our everyday lives to be replaced by smart contracts we would require data from the real world. Blockchains by themselves cannot interact, read or even listen to the data coming from the real world. This problem is known as **"The Oracle Problem"** 
+The smart contracts on the blockchain come with numerous benefits but with a big issue. If you want agreements in our everyday lives to be replaced by smart contracts we would require data from the real world. Blockchains by themselves cannot interact, read or even listen to the data coming from the real world. This problem is known as **"The Oracle Problem"**.
 <br>
 Blockchains are purposefully deterministic systems. Anything that happens with them, happens in their cute isolated little world. But if they are dealing with agreements they are going to definitely need external data and external competition. 
 
 This is where the Oracles come into play. Oracles are devices that can deliver the data to these decentralized blockchain or runs external computation. But if we want the applications to be decentralized you can't work with just one Oracle. You would need a decentralized Oracle Network, similar to a decentralized blockchain. 
 <br>
 The on-chain logic maybe decentralized but you also need your off-chain and computation to be decentralized too.
-Combining the on-chain decentralized logic with the offchain decentralized data and computation, is what gives rise to **hybrid smart contracts**. Hybrid Smart contracts typically has some random off-chain component 
+Combining the on-chain decentralized logic with the offchain decentralized data and computation, is what gives rise to **hybrid smart contracts**. Hybrid Smart contracts typically has some random off-chain component.
 <br>
 This is where **Chainlink** comes into the picture. A decentralized oracle network that can bring the external data and external computation into your smart contracts and makes sure that it is decentralized end-to-end that we need for our contract agreements.
 
@@ -48,18 +48,18 @@ Since the release of Ethereum, numerous blockchains came to life like Avalanche,
 
 All these notes are mainly directed towards developing smart contracts using ethereum. But it will be applicable to the vast majority of networks and learning it in ethereum can enable you to switching chains and developing other smart contracts on other platforms easily!
 
-A combination of many smart contracts is known as a Decentralized application or just **Dapp**
+A combination of many smart contracts is known as a Decentralized application or just **Dapp**.
 
 So we know what is a smart-contract, a Dapp and different protocols so what the heck is a **web3**??????
 
 ## The iteration of Web!
 We have seen the web develop more than 2 decades! Here is the evolution of the web:
 <br>
-- **Web1**: Persmissionless open source world that allows you to have static content
+- **Web1**: Persmissionless open source world that allows you to have static content.
 <br>
-- **Web2**: Permissioned web with dynamic content where all the agreements and logic off of centralized servers where they control your information
+- **Web2**: Permissioned web with dynamic content where all the agreements and logic off of centralized servers where they control your information.
 <br>
-- **Web3**: The permissionless web, with dynamic content where decentralized servers run the logic creating censorship resistant agreements in which smart contracts are enabled. Users own the protocol they work with and its often dubbed as the **ownership economy**
+- **Web3**: The permissionless web, with dynamic content where decentralized servers run the logic creating censorship resistant agreements in which smart contracts are enabled. Users own the protocol they work with and its often dubbed as the **ownership economy**.
 
 ## Why do I need a smart contract today?
 
@@ -75,7 +75,8 @@ Now imagine. Same jackpot, but you deploy on a smart contract in the blockchain.
 
 So the blockchain eliminate the questions like: **"How can I trust them?"** or **"Will they break the promise?"**
 
-
+The question of "trust" happens all the time. 
+The issue 
 
 
 
