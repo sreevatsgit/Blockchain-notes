@@ -2,7 +2,7 @@
 id: x06nq8a9lddm9d6pjbdom3o
 title: Gas
 desc: ''
-updated: 1655147722578
+updated: 1655210062670
 created: 1655137039292
 ---
 This is one of the most trickest concepts to understand in the book. 
@@ -23,4 +23,10 @@ We could see that there is a limit of 249,271 units of gas on the transaction an
 If you have noticed there is a relationship between the transaction fee, Gas usage by the transaction and the gas price which is:
 
 > **Transaction fee = Gas Price x Usage by TXN**
+
+Any transaction on the blockchain comes with paying a transaction gas fee.
+
+Gas fees tend to change. The reason why gas fees might change is that depending on how busy the blockchain is, you have to pay more gas. An over simplified example is that, if there is a lot of people are sending transactions, there isnt going to be enough space for everyone's transaction to get through. 
+
+Congrats! Now we know the surface level on how it works, the next note we going to see under the hood of ethereum and understand what is going on with these transactions, these blockchains, the gas and the fundamental components of the blockchain.
 

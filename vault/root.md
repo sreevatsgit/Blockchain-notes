@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655178841051
+updated: 1655210071119
 created: 1637610830605
 ---
 
@@ -19,6 +19,7 @@ Table of Contents:
 1. [[Blockchain Basics]]
 2. [[Setting Up a Wallet]]
 3. [[Gas]]
+4. [[Under the hood of Ethereum!]]
 
 
 
@@ -37,7 +38,7 @@ I love the concept of blockchain, but the problem is there are many people who s
 Apart from my coding life, I love playing golf🏌️‍♂️, Dota 2, binge eating food 🍕🍕, watching YouTube videos and love teaching people the art to code🖥️🖥️🖥️🖥️.
 
 
-This website gives a full arc on what a blockchain does, both the development side and the non-tech side! I would consistently update it and make it as enjoyable as possible!  Even if you dont know how to code a simple print statement, I know that this website would help you get a better grip on the concept of blockchain.
+This website gives a full arc on what a blockchain does, both the development side and the non-tech side! I would consistently update it and make it as enjoyable as possible!  Even if you don't know how to code a simple print statement, I know that this website can still help you get a better grip on the concept of blockchain.
 
 If you would like to change somethings in my notes, or would like to contribute to the notes, you could contact me on:
 - LinkedIn: https://www.linkedin.com/in/sreevatsankomandur/
