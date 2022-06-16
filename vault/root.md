@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655210071119
+updated: 1655303688943
 created: 1637610830605
 ---
 
@@ -14,18 +14,19 @@ This website is a list of notes will be consistently updated as time goes on. He
 
 These notes are primarily used to learn blockchain, solidity and a full stack web3 development using JavaScript. This documentation was created using Markdown, Dendron and Netlify. (Shout-out to Dendron💕🌱🌱 this is probably the best note taking software I have ever used!!)
 
-Table of Contents:
+## Table of Contents:
 
 1. [[Blockchain Basics]]
 2. [[Setting Up a Wallet]]
 3. [[Gas]]
 4. [[Under the hood of Ethereum!]]
+5. 
 
 
 
 ## More About me 😎😎😎
 
-Hello Blockchain Ethusiasts!
+Hello Blockchain Enthusiasts!
 
 I'm Sreevatsan Komandur Sridhar (Or Sree). I am from Bangalore, India currently living in Singapore. I self-taught myself everything related to blockchain and love working with smart contracts. 
 <br>

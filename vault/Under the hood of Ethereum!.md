@@ -2,7 +2,7 @@
 id: f0dtjjzyv7elu6fynzdff3x
 title: Under the hood of Ethereum!
 desc: ''
-updated: 1655219535873
+updated: 1655305953120
 created: 1655210082300
 ---
 At this point technically we could just dive right into the coding, (and you are welcomed to do so) but if we learn what is happening under the hood it would certainly make you a better programmer. 
@@ -85,5 +85,37 @@ So we observed how a simple hash function grew up to be a decentralized blockcha
 Now the way how the real-world blockchain works instead of random stuff put into the data section, it's going to be solidity code being put inside of it that defines ways to interact with the protocols on chains.
 
 
+## Public and Private Keys:
 
+For this tutorial, we still going to use Anders Brownworth's website on how public and private keys work.
+> https://andersbrownworth.com/blockchain/public-private-keys/keys
+
+As recalled earlier, a private key is something that you wanna keep it secret and is only known to the key holder to sign transactions. It's basically a secret password for your transactions LOL. 
+
+So we can feed in any private key that we would want and it would spit out a public key like so:
+
+![](/assets/images/2022-06-14-22-27-10.png)
+
+So what happens here is (for ethereum and bitcoin) they use the "**Elliptic Curve Digital Signature Algorithm**"  or the **ECDSA** which uses elliptic curve cryptography and creates this public key. The public key is derived from your private key. If you would like to read on how the algorithm works its here:
+> https://cryptobook.nakov.com/digital-signatures/ecdsa-sign-verify-messages
+
+Now that public key is what everyone can access to. The whole world can see it. Similarly, the private key we don't want the public to see it. 
+
+**So what is its uses?**
+Well, a private key acts as a passoword to sorta sign transactions. On the other hand the public key acts as a verification to verify the transaction
+
+## Signatures
+Let's move over to the signing signatures tab at:
+> https://andersbrownworth.com/blockchain/public-private-keys/signatures
+
+Similar to using the SHA256 in hashing, the message gets converted to a "message signature" using the ECDSA once we hit the sign button:
+
+![](/assets/images/2022-06-15-22-49-58.png)
+ 
+Now what's really powerful about this ECDSA is that you can create your message signature from your private key but you cannot derive the private key from the message signature. Signing is a process in which a user with a private key signs with a transaction by their private key being hashed with the transaction data.  
+<br>
+Now if we move to the verify tab, it basically verifies that signature is yours. 
+
+Now if someone tries to like "alter" the signature, its gonna give an invalid and the system says that signature is a fake and not verified to the public key. (The Black lines are indicators that I have created to show that I changed the signature)
+![](/assets/images/2022-06-15-23-08-55.png)
 
