@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655303688943
+updated: 1655456057568
 created: 1637610830605
 ---
 
@@ -20,7 +20,7 @@ These notes are primarily used to learn blockchain, solidity and a full stack we
 2. [[Setting Up a Wallet]]
 3. [[Gas]]
 4. [[Under the hood of Ethereum!]]
-5. 
+5. [[Implementation in the Real World]]
 
 
 

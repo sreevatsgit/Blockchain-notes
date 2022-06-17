@@ -2,7 +2,7 @@
 id: x06nq8a9lddm9d6pjbdom3o
 title: Gas
 desc: ''
-updated: 1655210062670
+updated: 1655456025296
 created: 1655137039292
 ---
 This is one of the most trickest concepts to understand in the book. 
@@ -26,7 +26,30 @@ If you have noticed there is a relationship between the transaction fee, Gas usa
 
 Any transaction on the blockchain comes with paying a transaction gas fee.
 
-Gas fees tend to change. The reason why gas fees might change is that depending on how busy the blockchain is, you have to pay more gas. An over simplified example is that, if there is a lot of people are sending transactions, there isnt going to be enough space for everyone's transaction to get through. 
+Gas fees tend to change. The reason why gas fees might change is that depending on how busy the blockchain is, you have to pay more gas. An over simplified example is that, if there is a lot of people are sending transactions, there isnt going to be enough space for everyone's transaction to get through. **The more people use a chain, the more expensive it is to send a transaction**
 
-Congrats! Now we know the surface level on how it works, the next note we going to see under the hood of ethereum and understand what is going on with these transactions, these blockchains, the gas and the fundamental components of the blockchain.
+Let's click to see more in the transaction screen. 
+![](/assets/images/2022-06-17-16-13-39.png)
+We can see that the gas limit is 32,377 and usage is 32,355. The above transaction used 32,355 gas and was sent 32,377 gas along with it spending about 99.93%. Sometimes, depending on the computation etc, it may use way more than what you would want it to use. So with each transactions you can set a limit and use only a certain amount of gas. 
+
+This limit can be done in our metamask when we send each transaction and change our gas limit. 
+
+Let's look at the next unit that is the Gas fees, we see a priority and a max base fees. So according to EIP1559, every transaction in ethereum comes in with a **base** fee. This is the minimum gas price that we would need to set to send your transaction. The unit of this is **Gwei**. 
+
+## Gwei:
+
+> 1 Ether = 10<sup>9</sup> Gwei = 10<sup>18</sup> Wei
+
+The concept of Gwei is to understand tiny units of ethereum. 
+
+The **Max** fee in the Gas fees refers to the maximum gas that the user is willing to pay for the transaction.
+The **Max Priority** on the other hand is the max gass fees that we are willing to pay plus the max tip that we are giving to miners. 
+
+In Ethereum the base fee ends up getting burnt which is the base gas fee x the usage by transaction. So in ethereum, whenever we send a transaction, a little bit of ethereum is removed from circulation forever (or also called "burnt"). So currently in ethereum, part of your transaction fee gets burnt and the other part goes to miners. 
+
+>Amount of ethereum going to miners = Transaction fee - Burnt ethereum
+
+Blockchains have limited blockspace for transactions. The gas price that costs for your transactions to be included changes based on how much demand there is. The Base gas fee goes up and down based on how many people are sending transactions and how many wanted to be included in a block
+
+Congrats! Now we know how gas works, the next note we going to see under the hood of ethereum and understand what is going on with these transactions, these blockchains, the gas and the fundamental components of the blockchain.
 

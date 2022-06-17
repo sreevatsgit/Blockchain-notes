@@ -2,7 +2,7 @@
 id: f0dtjjzyv7elu6fynzdff3x
 title: Under the hood of Ethereum!
 desc: ''
-updated: 1655305953120
+updated: 1655456190961
 created: 1655210082300
 ---
 At this point technically we could just dive right into the coding, (and you are welcomed to do so) but if we learn what is happening under the hood it would certainly make you a better programmer. 
@@ -112,10 +112,25 @@ Similar to using the SHA256 in hashing, the message gets converted to a "message
 
 ![](/assets/images/2022-06-15-22-49-58.png)
  
-Now what's really powerful about this ECDSA is that you can create your message signature from your private key but you cannot derive the private key from the message signature. Signing is a process in which a user with a private key signs with a transaction by their private key being hashed with the transaction data.  
+Now what's really powerful about this ECDSA is that you can create your message signature from your private key but you cannot derive the private key from the message signature. Signing is a process in which a user with a private key signs with a transaction by their private key being hashed with the transaction data. 
 <br>
 Now if we move to the verify tab, it basically verifies that signature is yours. 
 
 Now if someone tries to like "alter" the signature, its gonna give an invalid and the system says that signature is a fake and not verified to the public key. (The Black lines are indicators that I have created to show that I changed the signature)
 ![](/assets/images/2022-06-15-23-08-55.png)
 
+## Transactions
+
+Let's take the concepts on public and private keys and apply them to a transaction
+> https://andersbrownworth.com/blockchain/public-private-keys/transaction
+
+Lets say I want to transfer $30 to a wallet. Your private key (or the person who is sending $30) will sign the transaction and churn out a message signature 
+(hashes the amount, sender's address and reciever's address) which is the public key. The public key is then used as a verification tool which anybody else in the world can use it to verify the transaction. As you can see below the message signature = Message verification
+
+>Message Signing
+![](/assets/images/2022-06-17-15-56-56.png)
+
+>Message verification
+![](/assets/images/2022-06-17-15-57-35.png)
+
+Amazing! Now that we know what moves under the hood of ethereum let's look at how it is being implemented in the real world.
