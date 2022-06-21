@@ -2,7 +2,7 @@
 id: ik5Bi5OCTsmfKfq5JQtEB
 title: Blockchain From Noob To Pro!
 desc: ''
-updated: 1655542541912
+updated: 1655848618309
 created: 1637610830605
 ---
 
@@ -26,6 +26,7 @@ These notes are primarily used to learn blockchain, solidity and a full stack we
 
 
 
+
 ## More About me 😎😎😎
 
 Hello Blockchain Enthusiasts!
@@ -43,6 +44,28 @@ Apart from my coding life, I love playing golf🏌️‍♂️, Dota 2, binge ea
 
 This website gives a full arc on what a blockchain does, both the development side and the non-tech side! I would consistently update it and make it as enjoyable as possible!  Even if you don't know how to code a simple print statement, I know that this website can still help you get a better grip on the concept of blockchain.
 
+
+### Projects that I have done on the Blockchain
+#### 1. Decentralized Voting Machine
+
+Created a Dapp that enables transparent elections for democracies.
+
+#### 2. ERC721 Meme Token
+Built an ERC721 token as a joke and called it "Isocoin" (Isolation coin, we were on a lockdown during COVID-19 so why not call it "isolation"?)
+
+#### 3. Created a bunch of NFTs
+Was part of a team that built an NFT collection called Seriously Rich Asians
+
+### Current Projects that I am building on the Blockchain
+#### 1.  TiramisuDAO: 
+A decentralized autonomous organization (or DAO) coming soon!
+
+<img src="/assets/images/2022-06-22-05-52-21.png" width ="200" Height = "200">
+
+#### 2. This beautiful documentation:
+Created this documentation that helps individuals know better about the blockchain and develop better smart contracts irrespective of their level of programming. 
+
+## Contact
 If you would like to change somethings in my notes, or would like to contribute to the notes, you could contact me on:
 - LinkedIn: https://www.linkedin.com/in/sreevatsankomandur/
 - Instagram (username: @ wattsogram) or

@@ -2,7 +2,7 @@
 id: w4opqid1if14hcqfq5ayknt
 title: Solidity Basics
 desc: ''
-updated: 1655786377708
+updated: 1655843545301
 created: 1655543766173
 ---
 ## Data Types
@@ -190,3 +190,158 @@ Now if we call a view function or a pure function, we do not need to spend any g
 For example if our store() calls the retrieve() function, since store() isn't a view/pure function, we would need to pay the cost of retrieve since reading from the blockchain, costs computation and gas. So note:
 
 > ***Calling view functions is free unless you are calling it inside a function that costs gas.***
+
+The "returns" keyword in our function tells us what the function would give us after we call it. So we say the retrieve() is going to return a uint256 when we call it.
+
+## The Struct
+
+In our SimpleStorage contract our StoreNumber allows us to store a one simple uint256. Now what if we want to store a range of numbers? Or a whole bunch of people who have different numbers?
+There are several ways in which we can approach this. One way is to create a "struct" of people. Struct is basically a defining our own new type in solidity. It creates an object that holds different datatypes inside it. So we can create a people's object that holds someone's name and their number. To that we code in:
+
+> struct People {
+    <br> uint256 StoreNumber;
+    <br> string name; <br>
+}
+
+Now we created like uint256, bytes etc. we created our very own new type called "People". Like how we created a variable like:  
+
+uint256 public StoreNumber; 
+
+We can say
+
+> People public person = People({
+    StoreNumber = 55, name: "Sree"
+});
+
+The "()" signifies that we are creating a new person and since we made it a struct we add "{ }" to let solidity know that we are getting from these struct variables.
+
+Now compile and deploy we get this output:
+
+![](/assets/images/2022-06-21-13-06-56.png)
+
+You see that there is a 0 and a 1. These show the index of the variables. Typically in computer science we start with the number 0. So our 0th index stores our uint256 which stores our StoreNumber which is 55 and at index 1 it stores a name that stands for "Sree". Whenever we have a list of variales inside an object in solidity, they get automatically indexed. So favorite number gets indexed to 0 slot. Now let's change our struct a bit.
+
+> struct People {
+    <br> uint256 StoreNumber;
+    <br> **string StoreAlphabet;**
+    <br> string name; <br>
+}
+
+If we compile the contract again we can see that the StoreAlphabet gets stored at index 1 and name gets stored at index 2. 
+(Remove the StoreAlphabet line to continue with the example)
+
+## The Arrays
+Now this is nice. But imagine you want to store a bunch of people's numbers. Well you could copy and paste the people and change each entry. Or we can do the pro way is that we can use a data structure called as an array.
+
+An array is a sequence of objects. Creating an array is similar to creating othe variables.
+
+> People **[]** public individuals;
+
+We can also use it for a regular datatype like so:
+
+> uint256 **[]** public StoreNumberList;
+
+Now if we compile we have a blue people variable. Since it is public and a variable it is automatically given a view function. And instead of giving us a single button its giving us a form to fill out. It wants to take a uint256 and give us an input parameter. But no matter what you put in the box right now we get nothing back. 
+
+When we say "[]" and put nothing inside the brackets,  type of array is known as a dynamic array as the size of the array is not given at the array initialization.
+
+If we were to say:
+
+> People [3] public individuals;
+
+This shows that the people array can only hold 3 people. If we don't give it a size it could be any size and the size of the array can grow and shrink as we add and subract people.
+
+So lets go ahead and add an "individual" to the array. We are going to create an "add" function
+
+> function addPerson(string memory _name, uint256 _StoreNumber ) public {
+    <br> individuals.push(People(_StoreNumber, _name));
+}
+
+".push()" is an array adding function wherein we "push" a value into the array. So we are pushing a new "People" into the array that grabs the StoreNumber and the name
+
+We can also create a new variable of type people like and push that variable into the array
+
+> function addPerson(string memory _name, uint256 _StoreNumber ) public {<br>
+    <br> People memory newPerson = People({StoreNumber: _StoreNumber, name: _name});
+    <br> people.push(newPerson); <br>
+    <br>}
+
+Now lets compile it lets add on our addPerson textbox as Sree, 7 and now lets click the people and add the 0th person  button we would get it saved!
+
+![](/assets/images/2022-06-21-14-59-43.png)
+
+We could write another name say Jay and put the store number as 430. But in our people box we gotta put 1 (as it is a new person and since we are dealing with array indexes the next index after 0 is 1) to view the entry.
+
+![](/assets/images/2022-06-21-15-02-07.png)
+
+Another way to do push into an array is that we can remember the order of which the struct was written. For example the first thing that was written was the StoreNumber and the second was the name. So a way more simpler way to write it is by just putting the parameter variables of the functton and deploying it:
+
+> function addPerson(string memory _name, uint256 _StoreNumber ) public {<br>
+    <br> People memory newPerson = People **(_StoreNumber, _name)**;
+    <br> people.push(newPerson); <br>
+    <br>}
+
+ 
+## Calldata, Memory and Storage
+
+EVM can access and store information in 6 places:
+1. Stack
+2. Memory
+3. Storage
+4. Calldata
+5. Code
+6. Logs
+
+Let's focus only on Calldata, memory and storage
+
+Calldata and memory mean that the variable is only going to exist temporarily. Looking at the above addPerson function, we can see that the "_name" is a "memory" variable meaning that it only exists temporarily during the transaction this addPerson transaction is called. 
+
+Storage variables exist even outside the function execution. Even though we don't specify at StorageNumber, it automatically cast to be a storage variable. 
+
+Since we do not need the name variable any more as the function runs, we can keep it as "memory" or "calldata".
+
+We only use calldata when we don't modify that variable. So if we say:
+
+> function addPerson(string **calldata** _name, uint256 _StoreNumber ) public {
+    <br> **_name = "Sreevatsan"**
+    <br> People memory newPerson = People **(_StoreNumber, _name)**;
+    <br> people.push(newPerson); <br>
+    <br>}
+
+It's gonna throw an error. (LOL)
+
+But if you put memory and save it, that error goes away. So in summary:
+
+- **Calldata** is temporary variables that we can't be modify
+
+- **Memory** is temporary variables that can be modified
+
+- **Storage** is permanent variables that can be modified
+
+So you might be wondering, "why aren't we putting a calldata/ memory for _StoreNumber but we putting for _name??"
+
+Well try it out! You will get an error LOL. So when we compile it we get an error saying: 
+**
+"TypeError: Data location can only be specified for array, struct or mapping types, but memory was given"**
+
+Well, arrays, structs and mappings are considered special types in solidity. Solidity automatically knows where uint256 is going to be. It's gonna know that the uint256 is going to live in memory. But it's not sure what a string is going to be. To tear down bare bones on what a string is, string is basically an array of bytes. Since its an array, we need to tell solidity the data locations of arrays structs and mappings.
+
+
+So, structs, mappings and arrays, need to be given this memory or calldata keyword when adding them as a parameter to functions.
+
+
+## Mapping
+
+Well finding people outta a tiny array seems easy. But what if we need to find these people with a huge array list? We cannot use brute force by keying in every index to search the entry. So let's find a "quicker" way to store information that allows quicker access.
+
+Another excellent data structure that we can use is mapping. Mapping is like a dictionary. It is a data structure where a key is mapped to a single value. So to create our mapping variable we just create it like how we create all our other variables.
+
+> **mapping (string => uint256) public NameToNumber;**
+
+This line of code means that we are creating a public mapping variable called NameToNumber that maps the string to a uint256 value. Now that we have created the variable lets add value to it
+
+Let's go back to our addPerson function and add inside 
+
+> NameToNumber [_name] = _StoreNumber
+
+Let's compile and deploy this contract. We can see a new button. To create a new button 
